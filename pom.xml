@@ -1,0 +1,317 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.fugerit.java</groupId>
+	<artifactId>fj-bom</artifactId>
+
+	<version>0.1.0</version>
+	<packaging>pom</packaging>
+
+	<name>Fugerit Java Platform BOM</name>
+	<description>Fugerit Java Library for JDK 1.8 and up</description>
+	<url>https://www.fugerit.org/perm/jupiter/</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<organization>
+		<url>https://www.fugerit.org</url>
+		<name>Fugerit</name>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>Matteo a.k.a. Fugerit</name>
+			<email>m@fugerit.org</email>
+			<organization>Fugerit</organization>
+			<organizationUrl>https://www.fugerit.org</organizationUrl>
+		</developer>
+		<developer>
+			<name>Daneel</name>
+			<email>d@fugerit.org</email>
+			<organization>Fugerit</organization>
+			<organizationUrl>https://www.fugerit.org</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/fugerit-org/fj-bom.git</connection>
+		<developerConnection>scm:git:ssh://github.com/fugerit-org/fj-bom.git</developerConnection>
+		<url>http://github.com/fugerit-org/fj-bom</url>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java-version-compliance>1.8</java-version-compliance>
+		<j2ee-version-compliance>6.0</j2ee-version-compliance>
+	    <maven.compiler.source>${java-version-compliance}</maven.compiler.source>
+	    <maven.compiler.target>${java-version-compliance}</maven.compiler.target>
+	    <!-- maven plugin versions -->
+	    <mvn-source-version>3.2.1</mvn-source-version>
+	    <mvn-javadoc-version>3.3.0</mvn-javadoc-version>
+	    <mvn-jar-version>3.2.0</mvn-jar-version>
+	    <mvn-shade-version>3.2.4</mvn-shade-version>
+	    <mvn-surefire-version>3.0.0-M5</mvn-surefire-version>
+	    <!-- logging dependancies -->    
+	    <slf4j-version>1.7.30</slf4j-version>		
+	    <!-- release dependancies -->
+	    <nexus-version>1.6.8</nexus-version>
+	    <mvn-gpg-version>1.6</mvn-gpg-version>	    
+	    <junit-version>4.13.2</junit-version>
+	    <!-- other library dependancies -->  	
+	    <poi-version>4.1.2</poi-version>
+	    <dbcp-version>1.4</dbcp-version>
+	    <log4j-slf4j-impl-version>2.13.1</log4j-slf4j-impl-version>	    
+	    <junit-version>4.13.1</junit-version>
+	    <hsqldb-version>2.5.0</hsqldb-version>
+	</properties>
+
+	<modules>
+		<!-- 
+		<module>fj-core-bom</module>
+		 -->
+	</modules>
+
+	<dependencyManagement>
+	
+		<dependencies>
+
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>${j2ee-version-compliance}</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+			    <groupId>commons-dbcp</groupId>
+			    <artifactId>commons-dbcp</artifactId>
+			    <version>${dbcp-version}</version>
+			</dependency>	
+
+			<dependency>
+			    <groupId>org.apache.poi</groupId>
+			    <artifactId>poi-ooxml</artifactId>
+			    <version>${poi-version}</version>
+			</dependency>
+			
+			<!-- logging -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>${slf4j-version}</version>
+			</dependency>
+	
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>jcl-over-slf4j</artifactId>
+				<version>${slf4j-version}</version>
+			</dependency>
+				
+			<dependency>
+			    <groupId>org.apache.logging.log4j</groupId>
+			    <artifactId>log4j-slf4j-impl</artifactId>
+			    <version>${log4j-slf4j-impl-version}</version>
+			</dependency>
+
+	        <dependency>
+	            <groupId>org.hsqldb</groupId>
+	            <artifactId>hsqldb</artifactId>
+	            <version>${hsqldb-version}</version>
+	            <scope>test</scope>
+	        </dependency>	
+			
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit-version}</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${mvn-jar-version}</version>
+			</dependency>	
+
+			<dependency>
+				<groupId>org.sonatype.plugins</groupId>
+				<artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>${nexus-version}</version>
+			</dependency>	
+
+			<dependency>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>${mvn-gpg-version}</version>
+			</dependency>		
+
+		</dependencies>
+
+	</dependencyManagement>
+
+	<build>
+	
+		<pluginManagement>
+		
+			<plugins>
+		
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jar-plugin</artifactId>
+						<version>${mvn-jar-version}</version>
+					</plugin>
+		
+					<plugin>
+						<groupId>org.sonatype.plugins</groupId>
+						<artifactId>nexus-staging-maven-plugin</artifactId>
+						<version>${nexus-version}</version>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>${mvn-gpg-version}</version>
+					</plugin>	
+					
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-shade-plugin</artifactId>
+						<version>${mvn-shade-version}</version>
+					</plugin>						
+		
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<version>${mvn-source-version}</version>
+					</plugin>
+					
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-javadoc-plugin</artifactId>
+						<version>${mvn-javadoc-version}</version>
+					</plugin>					
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>${mvn-surefire-version}</version>
+					</plugin>
+							
+			</plugins>
+		
+		</pluginManagement>
+	
+		<plugins>
+		
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+	          		<skipTests>true</skipTests>
+	        	</configuration>
+			</plugin>		
+		
+		</plugins>
+	
+	</build>
+	
+	<profiles>
+	
+		<profile>
+			<id>test</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<configuration>
+			          		<skipTests>false</skipTests>
+			        	</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>		
+	
+		<profile>
+			<id>full</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-source-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>attach-sources</id>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-javadoc-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>attach-javadocs</id>
+								<goals>
+									<goal>jar</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>			
+				</plugins>
+			</build>
+		</profile>	
+	
+		<profile>
+			<id>doRelease</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.sonatype.plugins</groupId>
+						<artifactId>nexus-staging-maven-plugin</artifactId>
+						<version>${nexus-version}</version>
+						<extensions>true</extensions>
+						<configuration>
+							<serverId>ossrh</serverId>
+							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+							<autoReleaseAfterClose>true</autoReleaseAfterClose>
+						</configuration>
+					</plugin>
+
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>${mvn-gpg-version}</version>
+						<executions>
+							<execution>
+								<id>sign-artifacts</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>	
+	
+	</profiles>
+	
+</project>
