@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -61,22 +61,22 @@
 	    <maven.compiler.target>${java-version-compliance}</maven.compiler.target>
 	    <!-- maven plugin versions -->
 	    <mvn-source-version>3.2.1</mvn-source-version>
-	    <mvn-javadoc-version>3.3.0</mvn-javadoc-version>
-	    <mvn-jar-version>3.2.0</mvn-jar-version>
+	    <mvn-javadoc-version>3.3.2</mvn-javadoc-version>
+	    <mvn-jar-version>3.2.2</mvn-jar-version>
 	    <mvn-shade-version>3.2.4</mvn-shade-version>
 	    <mvn-surefire-version>3.0.0-M5</mvn-surefire-version>
 	    <!-- logging dependancies -->    
-	    <slf4j-version>1.7.30</slf4j-version>		
+	    <slf4j-version>1.7.36</slf4j-version>		
 	    <!-- release dependancies -->
 	    <nexus-version>1.6.8</nexus-version>
-	    <mvn-gpg-version>1.6</mvn-gpg-version>	    
+	    <mvn-gpg-version>3.0.1</mvn-gpg-version>	    
 	    <junit-version>4.13.2</junit-version>
 	    <!-- other library dependancies -->  	
 	    <poi-version>4.1.2</poi-version>
 	    <dbcp-version>1.4</dbcp-version>
-	    <log4j-slf4j-impl-version>2.13.1</log4j-slf4j-impl-version>	    
-	    <junit-version>4.13.1</junit-version>
-	    <hsqldb-version>2.5.0</hsqldb-version>
+	    <log4j-slf4j-impl-version>2.17.2</log4j-slf4j-impl-version>	    
+	    <junit-version>4.13.2</junit-version>
+	    <hsqldb-version>2.6.1</hsqldb-version>
 	</properties>
 
 	<modules>
