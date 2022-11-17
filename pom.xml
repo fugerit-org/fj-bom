@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>0.2.1</version>
+	<version>0.2.2</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -74,7 +74,8 @@
 	    <!-- other library dependancies -->  	
 	    <poi-version>4.1.2</poi-version>
 	    <common-codec-version>1.15</common-codec-version>
-	    <dbcp-version>1.4</dbcp-version>
+	    <dbcp-version>1.4</dbcp-version> <!-- dbcp usate should be avoided, use dbcp2 -->
+	    <dbcp2-version>2.9.0</dbcp2-version>
 	    <log4j-slf4j-impl-version>2.19.0</log4j-slf4j-impl-version>	    
 	    <junit-version>4.13.2</junit-version>
 	    <hsqldb-version>2.5.2</hsqldb-version>
@@ -104,6 +105,12 @@
 			    <artifactId>commons-dbcp</artifactId>
 			    <version>${dbcp-version}</version>
 			</dependency>	
+
+			<dependency>
+			    <groupId>org.apache.commons</groupId>
+			    <artifactId>commons-dbcp2</artifactId>
+			    <version>${dbcp2-version}</version>
+			</dependency>
 
 			<dependency>
 			    <groupId>org.apache.poi</groupId>
