@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>0.2.2</version>
+	<version>0.2.3</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -65,6 +65,10 @@
 	    <mvn-jar-version>3.3.0</mvn-jar-version>
 	    <mvn-shade-version>3.4.1</mvn-shade-version>
 	    <mvn-surefire-version>3.0.0-M7</mvn-surefire-version>
+	    <!-- maven plugin creation dependancies -->
+	    <mvn-plugin-api-version>3.8.6</mvn-plugin-api-version>
+	    <mvn-plugin-annotations-version>3.7.0</mvn-plugin-annotations-version>
+	    <mvn-plugin-version>3.7.0</mvn-plugin-version>    
 	    <!-- logging dependancies -->    
 	    <slf4j-version>1.7.36</slf4j-version>		
 	    <!-- release dependancies -->
@@ -187,6 +191,18 @@
 				<version>${mvn-gpg-version}</version>
 			</dependency>		
 
+			<dependency>
+				<groupId>org.apache.maven</groupId>
+				<artifactId>maven-plugin-api</artifactId>
+				<version>${mvn-plugin-api-version}</version>
+			</dependency>
+	
+			<dependency>
+				<groupId>org.apache.maven.plugin-tools</groupId>
+				<artifactId>maven-plugin-annotations</artifactId>
+				<version>${mvn-plugin-annotations-version}</version>
+			</dependency>
+
 		</dependencies>
 
 	</dependencyManagement>
@@ -239,6 +255,12 @@
 						<version>${mvn-surefire-version}</version>
 					</plugin>
 							
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-plugin-plugin</artifactId>
+						<version>${mvn-plugin-version}</version>
+					</plugin>	
+														
 			</plugins>
 		
 		</pluginManagement>
