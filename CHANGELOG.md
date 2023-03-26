@@ -1,5 +1,6 @@
-1.0.0 (2023-03-25)
-------------------
+1.0.0 (2023-03-26)
+-----------------
++ To comply with HyperSQL 2.7.1+ the libraries should be built with java 11 (maven.compiler.release can still be set to java 8)
 + Added Apache Maven Compiler Plugin version 3.11.0
 + Added Project Lombok version 1.18.26
 + Removed j2ee dependency

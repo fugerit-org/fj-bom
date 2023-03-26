@@ -61,7 +61,7 @@
 	    <!-- maven plugin versions -->
 	    <mvn-compiler-version>3.11.0</mvn-compiler-version>
 	    <mvn-source-version>3.2.1</mvn-source-version>
-	    <mvn-javadoc-version>3.5.1</mvn-javadoc-version>
+	    <mvn-javadoc-version>3.5.0</mvn-javadoc-version>
 	    <mvn-jar-version>3.3.0</mvn-jar-version>
 	    <mvn-shade-version>3.4.1</mvn-shade-version>
 	    <mvn-surefire-version>3.0.0-M7</mvn-surefire-version>
@@ -70,7 +70,8 @@
 	    <mvn-plugin-annotations-version>3.8.1</mvn-plugin-annotations-version>
 	    <mvn-plugin-version>3.8.1</mvn-plugin-version>    
 	    <!-- logging dependancies -->    
-	    <slf4j-version>2.0.7</slf4j-version>		
+	    <slf4j-version>2.0.7</slf4j-version>	
+	    <log4j2-version>2.20.0</log4j2-version>	
 	    <!-- release dependancies -->
 	    <nexus-version>1.6.13</nexus-version>
 	    <mvn-gpg-version>3.0.1</mvn-gpg-version>
@@ -78,8 +79,7 @@
 	    <poi-version>4.1.2</poi-version>
 	    <common-codec-version>1.15</common-codec-version>
 	    <dbcp-version>1.4</dbcp-version> <!-- dbcp usate should be avoided, use dbcp2 -->
-	    <dbcp2-version>2.9.0</dbcp2-version>
-	    <log4j-slf4j-impl-version>2.20.0</log4j-slf4j-impl-version>	    
+	    <dbcp2-version>2.9.0</dbcp2-version>  
 	    <junit-version>4.13.2</junit-version>
 	    <hsqldb-version>2.7.1</hsqldb-version>
 		<common-compress-version>1.23.0</common-compress-version>
@@ -140,17 +140,21 @@
 				<artifactId>slf4j-api</artifactId>
 				<version>${slf4j-version}</version>
 			</dependency>
-	
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>jcl-over-slf4j</artifactId>
-				<version>${slf4j-version}</version>
-			</dependency>
-				
+			
 			<dependency>
 			    <groupId>org.apache.logging.log4j</groupId>
-			    <artifactId>log4j-slf4j-impl</artifactId>
-			    <version>${log4j-slf4j-impl-version}</version>
+			    <artifactId>log4j-api</artifactId>
+			    <version>${log4j2-version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.apache.logging.log4j</groupId>
+			    <artifactId>log4j-core</artifactId>
+			   <version>${log4j2-version}</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.apache.logging.log4j</groupId>
+			    <artifactId>log4j-slf4j2-impl</artifactId>
+			    <version>${log4j2-version}</version>
 			</dependency>
 
 	        <dependency>
@@ -172,7 +176,6 @@
 			    <artifactId>maven-compiler-plugin</artifactId>
 			    <version>${mvn-compiler-version}</version>
 			</dependency>
-
 
 			<dependency>
 				<groupId>org.apache.maven.plugins</groupId>
