@@ -1,3 +1,8 @@
+1.1.0 (2023-05-30)
+------------------
++ Added org.graalvm.buildtools plugin management
++ Version update of a few dependencies
+
 1.0.0 (2023-03-26)
 -----------------
 + To comply with HyperSQL 2.7.1+ the libraries should be built with java 11 (maven.compiler.release can still be set to java 8)

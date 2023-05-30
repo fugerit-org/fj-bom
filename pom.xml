@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.0.0</version>
+	<version>1.1.0-rc.001</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -74,7 +74,7 @@
 	    <log4j2-version>2.20.0</log4j2-version>	
 	    <!-- release dependancies -->
 	    <nexus-version>1.6.13</nexus-version>
-	    <mvn-gpg-version>3.0.1</mvn-gpg-version>
+	    <mvn-gpg-version>3.1.0</mvn-gpg-version>
 	    <!-- other library dependancies -->  	
 	    <poi-version>4.1.2</poi-version>
 	    <common-codec-version>1.15</common-codec-version>
@@ -86,6 +86,9 @@
 		<org.tukaani.xz-version>1.9</org.tukaani.xz-version>
 		<!-- development plugin -->
 		<lombok-version>1.18.26</lombok-version>
+		<!-- graal vm -->
+		<graalvm-mvn-native-version>0.9.22</graalvm-mvn-native-version>
+		<slf4j-simple-version>2.0.7</slf4j-simple-version>
 	</properties>
 
 	<modules>
@@ -286,6 +289,12 @@
 						<artifactId>maven-plugin-plugin</artifactId>
 						<version>${mvn-plugin-version}</version>
 					</plugin>	
+										
+					<plugin>
+						<groupId>org.graalvm.buildtools</groupId>
+						<artifactId>native-maven-plugin</artifactId>
+						<version>${graalvm-mvn-native-version}</version>
+					</plugin>
 														
 			</plugins>
 		
@@ -384,6 +393,25 @@
 							</execution>
 						</executions>
 					</plugin>
+				</plugins>
+			</build>
+		</profile>	
+	
+		<profile>
+			<id>native</id>
+			<dependencies>
+				<dependency>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-simple</artifactId>
+					<version>${slf4j-simple-version}</version>
+				</dependency>
+			</dependencies>
+			<build>
+				<plugins>
+					<plugin>
+					    <groupId>org.graalvm.buildtools</groupId>
+					    <artifactId>native-maven-plugin</artifactId>
+					</plugin>		
 				</plugins>
 			</build>
 		</profile>	
