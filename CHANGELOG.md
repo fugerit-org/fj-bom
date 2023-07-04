@@ -1,3 +1,8 @@
+1.2.0 (2023-07-04)
+------------------
++ org.graalvm.buildtools plugin version update to 0.9.23
++ update lombok version to 1.18.28
+
 1.1.0 (2023-05-30)
 ------------------
 + Added org.graalvm.buildtools plugin management
