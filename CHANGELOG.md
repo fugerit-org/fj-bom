@@ -1,3 +1,7 @@
+1.2.3 (2023-07-11)
+------------------
++ revert maven source plugin to 3.2.1
+
 1.2.2 (2023-07-10)
 ------------------
 + update mvn-source-version to 3.3.0
