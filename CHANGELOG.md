@@ -1,3 +1,7 @@
+1.2.2 (2023-07-10)
+------------------
++ update mvn-source-version to 3.3.0
+
 1.2.1 (2023-07-09)
 ------------------
 + update mvn-resources-version to 3.3.1

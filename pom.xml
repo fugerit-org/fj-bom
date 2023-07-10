@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.2.1-rc.001</version>
+	<version>1.2.2-rc.001</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -60,7 +60,7 @@
 	    <maven.compiler.target>${java-version-compliance}</maven.compiler.target>
 	    <!-- maven plugin versions -->
 	    <mvn-compiler-version>3.11.0</mvn-compiler-version>
-	    <mvn-source-version>3.2.1</mvn-source-version>
+	    <mvn-source-version>3.3.0</mvn-source-version>
 	    <mvn-javadoc-version>3.5.0</mvn-javadoc-version>
 	    <mvn-jar-version>3.3.0</mvn-jar-version>
 	    <mvn-shade-version>3.4.1</mvn-shade-version>
