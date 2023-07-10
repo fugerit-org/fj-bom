@@ -1,3 +1,8 @@
+1.2.1 (2023-07-09)
+------------------
++ update mvn-resources-version to 3.3.1
++ update mvn-surefire-version to 3.1.2
+
 1.2.0 (2023-07-04)
 ------------------
 + org.graalvm.buildtools plugin version update to 0.9.23
