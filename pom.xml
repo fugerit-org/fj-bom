@@ -93,9 +93,6 @@
 	</properties>
 
 	<modules>
-		<!-- 
-		<module>fj-core-bom</module>
-		 -->
 	</modules>
 
 	<dependencyManagement>
