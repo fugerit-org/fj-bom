@@ -1,3 +1,12 @@
+1.2.4 (2023-08-24)
+------------------
++ revert maven source plugin to 3.2.1
++ mvn-plugin-api-version set to 3.9.4
++ mvn-plugin-annotations-version set to 3.9.0
++ mvn-plugin-plugin-version set to 3.9.0
++ hsqldb-version set to 2.7.2
++ graalvm-mvn-native-version set to 0.9.24
+
 1.2.3 (2023-07-11)
 ------------------
 + revert maven source plugin to 3.2.1
