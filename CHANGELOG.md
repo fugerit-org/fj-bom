@@ -1,3 +1,7 @@
+1.2.5 (2023-08-27)
+------------------
++ added profile coverage based on jacoco-maven-plugin. (for sonar cloud test coverage)
+
 1.2.4 (2023-08-24)
 ------------------
 + revert maven source plugin to 3.2.1

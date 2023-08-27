@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.2.4</version>
+	<version>1.2.5</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -90,6 +90,8 @@
 		<!-- graal vm -->
 		<graalvm-mvn-native-version>0.9.24</graalvm-mvn-native-version>
 		<slf4j-simple-version>2.0.7</slf4j-simple-version>
+		<!-- sonar cloud -->
+		<jacoco-maven-plugin-version>0.8.10</jacoco-maven-plugin-version>
 	</properties>
 
 	<modules>
@@ -319,6 +321,45 @@
 	</build>
 	
 	<profiles>
+
+		<profile>
+			<id>coverage</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<configuration>
+							<skipTests>false</skipTests>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>${jacoco-maven-plugin-version}</version>
+						<executions>
+							<execution>
+								<id>prepare-agent</id>
+								<goals>
+									<goal>prepare-agent</goal>
+								</goals>
+							</execution>
+							<execution>
+								<id>report</id>
+								<goals>
+									<goal>report</goal>
+								</goals>
+								<configuration>
+									<formats>
+										<format>XML</format>
+									</formats>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	
 		<profile>
 			<id>test</id>
