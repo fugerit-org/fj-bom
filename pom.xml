@@ -92,6 +92,9 @@
 		<slf4j-simple-version>2.0.7</slf4j-simple-version>
 		<!-- sonar cloud -->
 		<jacoco-maven-plugin-version>0.8.10</jacoco-maven-plugin-version>
+		<!-- build data -->
+		<buildnumber-maven-plugin-version>3.1.0</buildnumber-maven-plugin-version>
+		<licenseURL>https://opensource.org/license/apache-2-0/</licenseURL>
 	</properties>
 
 	<modules>
@@ -301,6 +304,12 @@
 						<artifactId>native-maven-plugin</artifactId>
 						<version>${graalvm-mvn-native-version}</version>
 					</plugin>
+					
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+        				<artifactId>buildnumber-maven-plugin</artifactId>
+						<version>${buildnumber-maven-plugin-version}</version>
+					</plugin>
 														
 			</plugins>
 		
@@ -409,12 +418,89 @@
 		</profile>	
 	
 		<profile>
+			<id>metadata</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>buildnumber-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<phase>validate</phase>
+								<goals>
+									<goal>create</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<doCheck>true</doCheck>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jar-plugin</artifactId>
+						<configuration>
+							<archive>
+								<manifest>
+									<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+								</manifest>
+								<manifestEntries>
+									<Implementation-Build>${buildNumber}</Implementation-Build>
+									<!-- osgi bundle properties https://docs.osgi.org/download/r8/osgi.core-8.0.0.pdf -->
+									<Bundle-License>${licenseURL}</Bundle-License>
+									<Bundle-Description>${project.description}</Bundle-Description>
+									<Bundle-Name>${project.name}</Bundle-Name>
+									<Bundle-ManifestVersion>4</Bundle-ManifestVersion>
+								</manifestEntries>
+							</archive>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	
+		<profile>
 			<id>doRelease</id>
 			<build>
 				
 				<plugins>
 					
-				<plugin>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>buildnumber-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<phase>validate</phase>
+								<goals>
+									<goal>create</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<doCheck>true</doCheck>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-jar-plugin</artifactId>
+						<configuration>
+							<archive>
+								<manifest>
+									<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+								</manifest>
+								<manifestEntries>
+									<Implementation-Build>${buildNumber}</Implementation-Build>
+									<!-- osgi bundle properties https://docs.osgi.org/download/r8/osgi.core-8.0.0.pdf -->
+									<Bundle-License>${licenseURL}</Bundle-License>
+									<Bundle-Description>${project.description}</Bundle-Description>
+									<Bundle-Name>${project.name}</Bundle-Name>
+									<Bundle-ManifestVersion>4</Bundle-ManifestVersion>
+								</manifestEntries>
+							</archive>
+						</configuration>
+					</plugin>
+					
+					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-source-plugin</artifactId>
 						<executions>
