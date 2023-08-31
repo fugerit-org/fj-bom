@@ -332,6 +332,17 @@
 	<profiles>
 
 		<profile>
+			<id>sonarfugerit</id>
+			<properties>
+			    <!-- sonar cloud configuration -->
+			    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+			    <sonar.organization>fugerit-org</sonar.organization>	
+		    	<sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
+		    	<!-- sonar.projectKey must be added by the project -->		
+			</properties>
+		</profile>
+
+		<profile>
 			<id>coverage</id>
 			<build>
 				<plugins>

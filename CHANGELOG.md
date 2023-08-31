@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - github action for sonar cloud scan (on branch main and branch-sonarcloud) (#6)
+- maven profile 'sonarfugerit' to set sonar cloud properties for fugerit-org (#6)
 
 ### Removed
 
