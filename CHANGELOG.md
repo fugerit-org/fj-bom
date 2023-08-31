@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- github action for sonar cloud scan (on branch main and branch-sonarcloud) (#6)
+
+## Added
+
 ## [1.3.0] - 2023-08-31
 
 ### Added
