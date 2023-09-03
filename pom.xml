@@ -29,8 +29,14 @@
 		<developer>
 			<name>Matteo a.k.a. Fugerit</name>
 			<email>m@fugerit.org</email>
+			<url>https://www.fugerit.org</url>
+			<timezone>+1</timezone>
 			<organization>Fugerit</organization>
 			<organizationUrl>https://www.fugerit.org</organizationUrl>
+			<roles>
+				<role>IT Senior Consultant</role>
+				<role>Senior Software Architect</role>
+			</roles>
 		</developer>
 		<developer>
 			<name>Daneel</name>
@@ -43,7 +49,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/fugerit-org/fj-bom.git</connection>
 		<developerConnection>scm:git:ssh://github.com/fugerit-org/fj-bom.git</developerConnection>
-		<url>http://github.com/fugerit-org/fj-bom</url>
+		<url>https://github.com/fugerit-org/fj-bom.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -51,6 +57,10 @@
 			<id>ossrh</id>
 			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
 	</distributionManagement>
 
 	<properties>
@@ -94,11 +104,8 @@
 		<jacoco-maven-plugin-version>0.8.10</jacoco-maven-plugin-version>
 		<!-- build data -->
 		<buildnumber-maven-plugin-version>3.1.0</buildnumber-maven-plugin-version>
-		<licenseURL>https://opensource.org/license/apache-2-0/</licenseURL>
+		<licenseURL>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseURL>
 	</properties>
-
-	<modules>
-	</modules>
 
 	<dependencyManagement>
 	

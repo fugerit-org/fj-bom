@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.2] - 2023-08-03
+
+### Changed
+
+- Set role
+- Developers data
+
+### Fixed
+
+- Set the license url in the property 'licenseURL' as in the 'license' tag.
+- scm url (.git was missing at the end)
+
 ## [1.3.1] - 2023-08-31
 
 ### Added
