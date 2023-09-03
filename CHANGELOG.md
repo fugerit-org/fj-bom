@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Changelog badge link set absolute 'https://github.com/fugerit-org/fj-bom/blob/main/CHANGELOG.md'
+
 ## [1.3.2] - 2023-08-03
 
 ### Changed
