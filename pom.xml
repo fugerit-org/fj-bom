@@ -27,7 +27,7 @@
 
 	<developers>
 		<developer>
-			<name>Matteo a.k.a. Fugerit</name>
+			<name>Matteo Franci a.k.a. Fugerit</name>
 			<email>m@fugerit.org</email>
 			<url>https://www.fugerit.org</url>
 			<timezone>+1</timezone>
@@ -110,6 +110,8 @@
 		<!-- build data -->
 		<buildnumber-maven-plugin-version>3.2.0</buildnumber-maven-plugin-version>
 		<licenseURL>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseURL>
+		<!-- build helper -->
+		<build-helper-maven-plugin-version>3.4.0</build-helper-maven-plugin-version>
 	</properties>
 
 	<dependencyManagement>
@@ -322,6 +324,12 @@
         				<artifactId>buildnumber-maven-plugin</artifactId>
 						<version>${buildnumber-maven-plugin-version}</version>
 					</plugin>
+							
+					<plugin>
+		                <groupId>org.codehaus.mojo</groupId>
+		                <artifactId>build-helper-maven-plugin</artifactId>
+		                <version>${build-helper-maven-plugin-version}</version>
+		            </plugin>							
 														
 			</plugins>
 		
