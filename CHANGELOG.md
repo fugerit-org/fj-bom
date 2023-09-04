@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+### Added
+
+- [dependabot](.github/dependabot.yml) configuration
+
+### Changed
+
+- slf4j-api and simple binding set to 2.0.9
+
 ## [Unreleased]
 
 ## [1.3.4] - 2023-08-04
@@ -12,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - issueManagement element (pom.xml, url : https://github.com/fugerit-org/fj-bom/issues )
-- [workflow](src/main/md/github/create_maven_build_workflow.md) for package testing and dependency upload
+- [workflow](.github/workflows/build_maven_package.yml) for package testing and dependency upload
 - build-helper-maven-plugin-version 3.4.0
 
 ### Changed

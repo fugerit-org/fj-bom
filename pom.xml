@@ -86,7 +86,7 @@
 		<mvn-plugin-annotations-version>3.9.0</mvn-plugin-annotations-version>
 		<mvn-plugin-version>3.9.0</mvn-plugin-version>
 		<!-- logging dependancies -->
-		<slf4j-version>2.0.7</slf4j-version>
+		<slf4j-version>2.0.9</slf4j-version>
 		<log4j2-version>2.20.0</log4j2-version>
 		<!-- release dependancies -->
 		<nexus-version>1.6.13</nexus-version>
@@ -104,7 +104,7 @@
 		<lombok-version>1.18.28</lombok-version>
 		<!-- graal vm -->
 		<graalvm-mvn-native-version>0.9.24</graalvm-mvn-native-version>
-		<slf4j-simple-version>2.0.7</slf4j-simple-version>
+		<slf4j-simple-version>${slf4j-version}</slf4j-simple-version>
 		<!-- sonar cloud -->
 		<jacoco-maven-plugin-version>0.8.10</jacoco-maven-plugin-version>
 		<!-- build data -->
