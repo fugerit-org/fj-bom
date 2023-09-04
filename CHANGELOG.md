@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- issueManagement element (pom.xml, url : https://github.com/fugerit-org/fj-bom/issues )
+- [workflow](src/main/md/github/create_maven_build_workflow.md) for package testing and dependency upload
+
+### Changed
+
+- buildnumber-maven-plugin-version set to 3.2.0
+
 ## [1.3.3] - 2023-08-04
 
 ### Changed

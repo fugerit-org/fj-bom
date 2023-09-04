@@ -52,6 +52,11 @@
 		<url>https://github.com/fugerit-org/fj-bom.git</url>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/fugerit-org/fj-bom/issues</url>
+	</issueManagement>
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -103,7 +108,7 @@
 		<!-- sonar cloud -->
 		<jacoco-maven-plugin-version>0.8.10</jacoco-maven-plugin-version>
 		<!-- build data -->
-		<buildnumber-maven-plugin-version>3.1.0</buildnumber-maven-plugin-version>
+		<buildnumber-maven-plugin-version>3.2.0</buildnumber-maven-plugin-version>
 		<licenseURL>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseURL>
 	</properties>
 
