@@ -7,15 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
-- [workflow codeql on branch main](.github/workflows/codeql-analysis.yml)
-
 ### Changed
 
 - reference to https://keepachangelog.com/ v1.1.0 in changelog
 
-## [1.3.5] - 2023-08-04
+## [1.3.5] - 2023-09-04
 
 ### Added
 
@@ -27,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.4] - 2023-08-04
+## [1.3.4] - 2023-09-04
 
 ### Added
 
@@ -39,14 +35,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - buildnumber-maven-plugin-version set to 3.2.0
 
-## [1.3.3] - 2023-08-04
+## [1.3.3] - 2023-09-04
 
 ### Changed
 
 - Property mvn-source-version set to 3.3.0 (#10)
 - Changelog badge link set absolute 'https://github.com/fugerit-org/fj-bom/blob/main/CHANGELOG.md'
 
-## [1.3.2] - 2023-08-03
+## [1.3.2] - 2023-09-03
 
 ### Changed
 
