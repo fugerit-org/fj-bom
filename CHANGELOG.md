@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.3] - 2023-08-04
+
 ### Changed
 
+- Property mvn-source-version set to 3.3.0 (#10)
 - Changelog badge link set absolute 'https://github.com/fugerit-org/fj-bom/blob/main/CHANGELOG.md'
 
 ## [1.3.2] - 2023-08-03
