@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.4] - 2023-08-04
+
 ### Added
 
 - issueManagement element (pom.xml, url : https://github.com/fugerit-org/fj-bom/issues )
