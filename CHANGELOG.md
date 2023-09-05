@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.6] - 2023-09-05
+
 ### Changed
 
+- poi-version set to 5.2.3
 - reference to https://keepachangelog.com/ v1.1.0 in changelog
 
 ## [1.3.5] - 2023-09-04
