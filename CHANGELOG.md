@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.8] - 2023-09-15
+
+### Changed
+
+- [Minor change to deploy workflow](.github/workflows/deploy_maven_package.yml) (Some profiles were not needed for pom only packaging)
+
 ## [1.3.7] - 2023-09-15
 
 ### Added
