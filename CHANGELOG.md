@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.7] - 2023-09-15
+
+### Added
+
+- [maven deploy workflow (active on branch deploy)](.github/workflows/deploy_maven_package.yml)
+
 ### Changed
 
 - common-compress-version set to 1.24.0
