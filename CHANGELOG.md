@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- project [fj-test-helper](https://github.com/fugerit-org/fj-test-helper) added to dependencyManagement (starting version 0.5.0).
+
 ## [1.3.8] - 2023-09-15
 
 ### Changed
