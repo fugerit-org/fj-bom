@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- common-compress-version set to 1.24.0
+
+### Security
+
+- merge dependabot pull request on common-compress-version
+
 ## [1.3.6] - 2023-09-05
 
 ### Changed
