@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 
-- merge dependabot pull request on common-compress-version
+- [Apache Commons Compress denial of service vulnerability](https://github.com/fugerit-org/fj-bom/security/dependabot/1)
 
 ## [1.3.6] - 2023-09-05
 
