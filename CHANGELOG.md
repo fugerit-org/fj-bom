@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.2] - 2023-09-23
+
+### Added
+
+- org.awaitility test dependency
+- [Sample jdk compatibility check workflow on branch develop](.github/workflows/build_maven_compatibility.yml)
+
 ## [1.4.1] - 2023-09-23
 
 ### Added

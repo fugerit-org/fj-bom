@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.4.1</version>
+	<version>1.4.2</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -97,6 +97,7 @@
 		<dbcp-version>1.4</dbcp-version> <!-- dbcp should be avoided, use dbcp2 -->
 		<dbcp2-version>2.9.0</dbcp2-version>
 		<junit-version>4.13.2</junit-version>	
+		<awaitility-version>4.2.0</awaitility-version>	
 		<hsqldb-version>2.7.2</hsqldb-version>
 		<fj-test-helper-version>0.5.0</fj-test-helper-version>   
 		<common-compress-version>1.24.0</common-compress-version>
@@ -190,6 +191,13 @@
 				<artifactId>junit</artifactId>
 				<version>${junit-version}</version>
 				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+			    <groupId>org.awaitility</groupId>
+			    <artifactId>awaitility</artifactId>
+			    <version>${awaitility-version}</version>
+			    <scope>test</scope>
 			</dependency>
 
 			<dependency>
