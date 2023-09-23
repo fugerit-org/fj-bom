@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.4.0</version>
+	<version>1.4.1</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -190,6 +190,13 @@
 				<artifactId>junit</artifactId>
 				<version>${junit-version}</version>
 				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+			    <groupId>org.slf4j</groupId>
+			    <artifactId>slf4j-simple</artifactId>
+			    <version>${slf4j-version}</version>
+			    <scope>test</scope>
 			</dependency>
 
 			<dependency>

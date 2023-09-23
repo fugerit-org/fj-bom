@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.1] - 2023-09-23
+
+### Added
+
+- slf4j-simple test dependency
+- [Sample jdk compatibility check workflow on branch develop](.github/workflows/build_maven_compatibility.yml)
+
+### Changed
+
+- [Sonar cloud workflow merged in maven build](.github/workflows/deploy_maven_package.yml)
+
+### Removed
+
+- Sonar cloud workflow yml removed. (after being merged with maven build)
+
 ## [1.4.0] - 2023-09-15
 
 ### Added
