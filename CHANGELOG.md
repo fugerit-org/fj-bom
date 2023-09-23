@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Code of conduct badge and file
+- Java / Maven version badges
+
 ## [1.4.2] - 2023-09-23
 
 ### Added
