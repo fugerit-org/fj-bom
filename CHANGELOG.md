@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.4] - 2023-09-24
+
+### Fixed
+
+- dependency fix on fj-test-helper-version
+
 ## [1.4.3] - 2023-09-24
 
 ### Added
