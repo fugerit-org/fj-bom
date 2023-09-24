@@ -7,10 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.3] - 2023-09-24
+
 ### Added
 
 - Code of conduct badge and file
 - Java / Maven version badges
+
+### Changed
+
+- fj-test-helper version set to 0.5.2 (and added new module in dependencyManagement fj-test-helper-java-jaxrs)
 
 ## [1.4.2] - 2023-09-23
 
