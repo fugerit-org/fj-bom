@@ -7,11 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.7] - 2023-09-26
+
+### Added 
+
+- jackson dataformat-yaml dependency management set to 2.15.2
+
 ## [1.4.6] - 2023-09-26
 
 ### Added 
 
-- jackson dependency management set to 2.15.2
+- jackson core and databind dependency management set to 2.15.2
 - opencsv dependency management set to 5.8
 
 ### Changed

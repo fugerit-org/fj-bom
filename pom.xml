@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.4.6</version>
+	<version>1.4.7</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -115,8 +115,10 @@
 		<!-- build helper -->
 		<build-helper-maven-plugin-version>3.4.0</build-helper-maven-plugin-version>
 		<!-- jackson version -->
-		<fasterxml-jackson-core-version>2.15.2</fasterxml-jackson-core-version>
-		<fasterxml-jackson-databind-version>2.15.2</fasterxml-jackson-databind-version>
+		<jackson-version>2.15.2</jackson-version>
+		<fasterxml-jackson-core-version>${jackson-version}</fasterxml-jackson-core-version>
+		<fasterxml-jackson-databind-version>${jackson-version}</fasterxml-jackson-databind-version>
+		<fasterxml-jackson-dataformat-yaml-version>${jackson-version}</fasterxml-jackson-dataformat-yaml-version>
 		<!-- opencsv version -->
 		<opencsv-version>5.8</opencsv-version>
 	</properties>
@@ -284,6 +286,12 @@
 				<groupId>com.fasterxml.jackson.core</groupId>
 				<artifactId>jackson-databind</artifactId>
 				<version>${fasterxml-jackson-databind-version}</version>
+			</dependency>
+
+			<dependency>
+			    <groupId>com.fasterxml.jackson.dataformat</groupId>
+			    <artifactId>jackson-dataformat-yaml</artifactId>
+			    <version>${fasterxml-jackson-dataformat-yaml-version}</version>
 			</dependency>
 
 			<dependency>
