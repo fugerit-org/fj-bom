@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.6] - 2023-09-26
+
+### Added 
+
+- jackson dependency management set to 2.15.2
+- opencsv dependency management set to 5.8
+
+### Changed
+
+- lombok-version set to 1.18.30
+- mvn-shade-plugin-version set to 3.5.1
+
 ## [1.4.5] - 2023-09-24
 
 ### Changed
