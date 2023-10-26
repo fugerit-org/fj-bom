@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.8] - 2023-00-26
+
+### Added 
+
+- apache poi management set to 5.2.4
+- jackson dataformat-yaml dependency management set to 2.15.2
+
 ### Changed
 
 - java and maven badges link

@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.4.7</version>
+	<version>1.4.8</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -92,7 +92,7 @@
 		<nexus-version>1.6.13</nexus-version>
 		<mvn-gpg-version>3.1.0</mvn-gpg-version>
 		<!-- other library dependancies -->
-		<poi-version>5.2.3</poi-version>
+		<poi-version>5.2.4</poi-version>
 		<common-codec-version>1.15</common-codec-version>
 		<dbcp-version>1.4</dbcp-version> <!-- dbcp should be avoided, use dbcp2 -->
 		<dbcp2-version>2.9.0</dbcp2-version>
@@ -115,7 +115,7 @@
 		<!-- build helper -->
 		<build-helper-maven-plugin-version>3.4.0</build-helper-maven-plugin-version>
 		<!-- jackson version -->
-		<jackson-version>2.15.2</jackson-version>
+		<jackson-version>2.15.3</jackson-version>
 		<fasterxml-jackson-core-version>${jackson-version}</fasterxml-jackson-core-version>
 		<fasterxml-jackson-databind-version>${jackson-version}</fasterxml-jackson-databind-version>
 		<fasterxml-jackson-dataformat-yaml-version>${jackson-version}</fasterxml-jackson-dataformat-yaml-version>
