@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.4.8] - 2023-00-26
+## [1.4.9] - 2023-11-12
+
+### Fixed 
+
+- javadoc generation for lombok annotated sources
+
+## [1.4.8] - 2023-10-26
 
 ### Added 
 
