@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.4.9</version>
+	<version>1.5.0</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -124,6 +124,8 @@
 		<!-- lombok maven -->
 		<lombok-maven-plugin-version>1.18.20.0</lombok-maven-plugin-version>
 		<delombok-output-dir>${project.build.directory}/generated-sources/delombok</delombok-output-dir>
+		<javadoc-javasource-path-extra></javadoc-javasource-path-extra>	<!-- setting this property it is possible to add PATH to javadoc processing, for instance ':${generated.source.daogen}' -->
+		<javadoc-javasource-path>${delombok-output-dir}${javadoc-javasource-path-extra}</javadoc-javasource-path>
 	</properties>
 
 	<dependencyManagement>
@@ -541,7 +543,7 @@
 									<goal>jar</goal>
 								</goals>
 								<configuration>
-									<sourcepath>${delombok-output-dir}</sourcepath>
+									<sourcepath>${javadoc-javasource-path}</sourcepath>
 								</configuration>
 							</execution>
 						</executions>
@@ -675,7 +677,7 @@
 									<goal>jar</goal>
 								</goals>
 								<configuration>
-									<sourcepath>${delombok-output-dir}</sourcepath>
+									<sourcepath>${javadoc-javasource-path}</sourcepath>
 								</configuration>
 							</execution>
 						</executions>
