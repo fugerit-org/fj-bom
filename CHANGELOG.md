@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed 
 
-- Added dependency lombok 1.18.30 for lombok-maven-plugin (to ensure compatibility with java 21)
+- Added dependency lombok 1.18.30 for lombok-maven-plugin (to ensure compatibility with java 21), this is a known issue of last release of the [lombok-maven-plugin](https://github.com/awhitford/lombok.maven/issues/179)
 
 ## [1.5.0] - 2023-11-12
 
