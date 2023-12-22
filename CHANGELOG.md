@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.2] - 2023-12-22
+
+### Changed
+
+- jacoco-maven-plugin-version set to 0.8.11
+- graalvm-mvn-native-version set to 0.9.28
+- mvn-javadoc-version set to 3.6.3
+- mvn-compiler-version set to 3.12.0
+- mvn-surefire-version set to 3.2.3
+- mvn-plugin-api-version set to 3.9.6
+- mvn-plugin-annotations-version set to 3.10.2
+- mvn-plugin-version set to 3.10.2
+- og4j2-version set to 2.22.0
+- poi-version set to 5.2.5
+- build-helper-maven-plugin-version set to 3.5.0
+- common-compress-version set to 1.25.0
+
 ## [1.5.1] - 2023-12-22
 
 ### Fixed 
