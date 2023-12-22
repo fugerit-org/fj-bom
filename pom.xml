@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.5.0</version>
+	<version>1.5.1</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -532,6 +532,13 @@
 								</configuration>
 				        </execution>
 				      </executions>
+				      <dependencies>
+						<dependency>
+						    <groupId>org.projectlombok</groupId>
+						    <artifactId>lombok</artifactId>
+						    <version>${lombok-version}</version>
+						</dependency>						  			  
+					  </dependencies>
 				    </plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
@@ -666,6 +673,13 @@
 								</configuration>
 				        </execution>
 				      </executions>
+			      	  <dependencies>
+						<dependency>
+						    <groupId>org.projectlombok</groupId>
+						    <artifactId>lombok</artifactId>
+						    <version>${lombok-version}</version>
+						</dependency>						  			  
+					  </dependencies>
 				    </plugin>
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
