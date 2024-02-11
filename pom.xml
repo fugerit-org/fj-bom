@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.5.2</version>
+	<version>1.6.0</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
@@ -74,26 +74,26 @@
 		<maven.compiler.source>${java-version-compliance}</maven.compiler.source>
 		<maven.compiler.target>${java-version-compliance}</maven.compiler.target>
 		<!-- maven plugin versions -->
-		<mvn-compiler-version>3.12.0</mvn-compiler-version>
+		<mvn-compiler-version>3.12.1</mvn-compiler-version>
 		<mvn-source-version>3.3.0</mvn-source-version>
 		<mvn-javadoc-version>3.6.3</mvn-javadoc-version>
 		<mvn-jar-version>3.3.0</mvn-jar-version>
 		<mvn-shade-version>3.5.1</mvn-shade-version>
-		<mvn-surefire-version>3.2.3</mvn-surefire-version>
+		<mvn-surefire-version>3.2.5</mvn-surefire-version>
 		<mvn-resources-version>3.3.1</mvn-resources-version>
 		<!-- maven plugin creation dependancies -->
 		<mvn-plugin-api-version>3.9.6</mvn-plugin-api-version>
-		<mvn-plugin-annotations-version>3.10.2</mvn-plugin-annotations-version>
-		<mvn-plugin-version>3.10.2</mvn-plugin-version>
+		<mvn-plugin-annotations-version>3.11.0</mvn-plugin-annotations-version>
+		<mvn-plugin-version>3.11.0</mvn-plugin-version>
 		<!-- logging dependancies -->
-		<slf4j-version>2.0.9</slf4j-version>
-		<log4j2-version>2.22.0</log4j2-version>
+		<slf4j-version>2.0.12</slf4j-version>
+		<log4j2-version>2.22.1</log4j2-version>
 		<!-- release dependancies -->
 		<nexus-version>1.6.13</nexus-version>
 		<mvn-gpg-version>3.1.0</mvn-gpg-version>
 		<!-- other library dependancies -->
 		<poi-version>5.2.5</poi-version>
-		<common-codec-version>1.15</common-codec-version>
+		<common-codec-version>1.16.1</common-codec-version>
 		<dbcp-version>1.4</dbcp-version> <!-- dbcp should be avoided, use dbcp2 -->
 		<dbcp2-version>2.9.0</dbcp2-version>
 		<junit-version>4.13.2</junit-version>	
@@ -105,7 +105,7 @@
 		<!-- development plugin -->
 		<lombok-version>1.18.30</lombok-version>
 		<!-- graal vm -->
-		<graalvm-mvn-native-version>0.9.28</graalvm-mvn-native-version>
+		<graalvm-mvn-native-version>0.1.0</graalvm-mvn-native-version>
 		<slf4j-simple-version>${slf4j-version}</slf4j-simple-version>
 		<!-- sonar cloud -->
 		<jacoco-maven-plugin-version>0.8.11</jacoco-maven-plugin-version>
@@ -115,7 +115,7 @@
 		<!-- build helper -->
 		<build-helper-maven-plugin-version>3.5.0</build-helper-maven-plugin-version>
 		<!-- jackson version -->
-		<jackson-version>2.16.0</jackson-version>
+		<jackson-version>2.16.1</jackson-version>
 		<fasterxml-jackson-core-version>${jackson-version}</fasterxml-jackson-core-version>
 		<fasterxml-jackson-databind-version>${jackson-version}</fasterxml-jackson-databind-version>
 		<fasterxml-jackson-dataformat-yaml-version>${jackson-version}</fasterxml-jackson-dataformat-yaml-version>

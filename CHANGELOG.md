@@ -7,8 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.0] - 2024-02-11
+
 ### Changed
 
+- mvn-compiler-version set to 3.12.1
+- mvn-surefire-version set to 3.2.5
+- mvn-plugin-annotations-version set to 3.11.0
+- mvn-plugin-version set to 3.11.0
+- slf4j-version set to 2.0.12
+- common-codec-version set to 1.16.1
+- dbcp2-version set to 2.11.0
+- graalvm-mvn-native-version 0.10.0
+- jackson-version set to 2.16.1
 - review github workflows
 - fugert org project conventions badge
 
