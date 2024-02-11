@@ -27,8 +27,10 @@ jobs:
         server-id: ossrh
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
+    - name: Build package
+      run: mvn clean install -P full,coverage,metadata
     - name: Publish package
-      run: mvn --batch-mode deploy -P full,coverage,metadata
+      run: mvn --batch-mode deploy
       env:
         MAVEN_USERNAME: ${{ secrets.OSS_USERNAME }}
         MAVEN_PASSWORD: ${{ secrets.OSS_PASSWORD }}
