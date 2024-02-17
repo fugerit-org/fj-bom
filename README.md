@@ -15,15 +15,15 @@ Main parent pom of fugerit-org projects.
 
 ## general properties
 
-| property                       | current value                                                             | note                                                                                                                                                                                                                |
-|--------------------------------|---------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| project.build.sourceEncoding   | UTF-8                                                                     |                                                                                                                                                                                                                     |
-| java-version-compliance        | 1.8                                                                       |                                                                                                                                                                                                                     |
-| maven.compiler.source          | ${java-version-compliance}                                                |                                                                                                                                                                                                                     |
-| maven.compiler.target          | ${java-version-compliance}                                                |                                                                                                                                                                                                                     |
-| licenseURL                | http://www.apache.org/licenses/LICENSE-2.0.txt |   |
-| javadoc-javasource-path-extra              |  |
-| javadoc-javasource-path               | ${delombok-output-dir}${javadoc-javasource-path-extra} |
+| property                      | current value                                          | note |
+|-------------------------------|--------------------------------------------------------|------|
+| project.build.sourceEncoding  | UTF-8                                                  |      |
+| java-version-compliance       | 1.8                                                    |      |
+| maven.compiler.source         | ${java-version-compliance}                             |      |
+| maven.compiler.target         | ${java-version-compliance}                             |      |
+| licenseURL                    | http://www.apache.org/licenses/LICENSE-2.0.txt         |      |
+| javadoc-javasource-path-extra |                                                        |
+| javadoc-javasource-path       | ${delombok-output-dir}${javadoc-javasource-path-extra} |
 
 ## artifact versions properties
 
@@ -60,9 +60,9 @@ Main parent pom of fugerit-org projects.
 | buildnumber-maven-plugin-version          | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v3.2.0-teal.svg)     | [![Maven Central](https://img.shields.io/maven-central/v/org.codehaus.mojo/buildnumber-maven-plugin.svg)](https://central.sonatype.com/artifact/org.codehaus.mojo/buildnumber-maven-plugin)                             |
 | build-helper-maven-plugin-version         | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v3.5.0-teal.svg)     | [![Maven Central](https://img.shields.io/maven-central/v/org.codehaus.mojo/build-helper-maven-plugin.svg)](https://central.sonatype.com/artifact/org.codehaus.mojo/build-helper-maven-plugin)                           |
 | jackson-version                           | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v2.16.1-teal.svg)    | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-core.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core)                                   |
-| fasterxml-jackson-core-version | jackson-version                                                              | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-core.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core) |
-| fasterxml-jackson-databind-version        | jackson-version                                                              | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-databind.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind)  |
+| fasterxml-jackson-core-version            | jackson-version                                                              | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-core.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core)                                   |
+| fasterxml-jackson-databind-version        | jackson-version                                                              | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.core/jackson-databind.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind)                           |
 | fasterxml-jackson-dataformat-yaml-version | jackson-version                                                              | [![Maven Central](https://img.shields.io/maven-central/v/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml.svg)](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml) |
-| opencsv-version                            | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v5.9-teal.svg)       | [![Maven Central](https://img.shields.io/maven-central/v/com.opencsv/opencsv.svg)](https://central.sonatype.com/artifact/com.opencsv/opencsv)                                                                           |
-| lombok-maven-plugin-version        | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v1.18.20.0-teal.svg) | [![Maven Central](https://img.shields.io/maven-central/v/org.projectlombok/lombok-maven-plugin.svg)](https://central.sonatype.com/artifact/org.projectlombok/lombok-maven-plugin)                                       |
+| opencsv-version                           | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v5.9-teal.svg)       | [![Maven Central](https://img.shields.io/maven-central/v/com.opencsv/opencsv.svg)](https://central.sonatype.com/artifact/com.opencsv/opencsv)                                                                           |
+| lombok-maven-plugin-version               | ![fj-bom version](https://img.shields.io/badge/fj%20bom-v1.18.20.0-teal.svg) | [![Maven Central](https://img.shields.io/maven-central/v/org.projectlombok/lombok-maven-plugin.svg)](https://central.sonatype.com/artifact/org.projectlombok/lombok-maven-plugin)                                       |
 
