@@ -87,7 +87,7 @@
 		<mvn-plugin-version>3.11.0</mvn-plugin-version>
 		<!-- logging dependancies -->
 		<slf4j-version>2.0.12</slf4j-version>
-		<log4j2-version>2.22.1</log4j2-version>
+		<log4j2-version>2.23.1</log4j2-version>
 		<!-- release dependancies -->
 		<nexus-version>1.6.13</nexus-version>
 		<mvn-gpg-version>3.1.0</mvn-gpg-version>
