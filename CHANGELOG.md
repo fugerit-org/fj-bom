@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - common-compress-version set to 1.26.1
 - lombok-version set to 1.18.32
 - graalvm-mvn-native-version set to 0.10.1
+- jackson-version set to 2.17.0
 
 ## [1.6.1] - 2024-02-20
 
