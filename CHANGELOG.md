@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- junit-jupiter-version 5.10.2
+- testcontainers-version 1.19.7
+
 ## [1.6.2] - 2024-03-24
 
 ### Changed
