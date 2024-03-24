@@ -90,7 +90,7 @@
 		<log4j2-version>2.23.1</log4j2-version>
 		<!-- release dependancies -->
 		<nexus-version>1.6.13</nexus-version>
-		<mvn-gpg-version>3.1.0</mvn-gpg-version>
+		<mvn-gpg-version>3.2.1</mvn-gpg-version>
 		<!-- other library dependancies -->
 		<poi-version>5.2.5</poi-version>
 		<common-codec-version>1.16.1</common-codec-version>
