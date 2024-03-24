@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - mvn-shade-version set to 3.5.2
 - log4j2-version set to 2.23.1
 - mvn-gpg-version set to 3.2.1
+- dbcp2-version set to 2.12.0
 
 ## [1.6.1] - 2024-02-20
 
