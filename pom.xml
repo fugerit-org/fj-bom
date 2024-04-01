@@ -112,8 +112,6 @@
 		<!-- graal vm -->
 		<graalvm-mvn-native-version>0.10.1</graalvm-mvn-native-version>
 		<slf4j-simple-version>${slf4j-version}</slf4j-simple-version>
-		<!-- sonar cloud -->
-		<jacoco-maven-plugin-version>0.8.11</jacoco-maven-plugin-version>
 		<!-- build data -->
 		<buildnumber-maven-plugin-version>3.2.0</buildnumber-maven-plugin-version>
 		<licenseURL>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseURL>
@@ -499,6 +497,7 @@
 								<configuration>
 									<formats>
 										<format>XML</format>
+										<format>HTML</format>
 									</formats>
 								</configuration>
 							</execution>

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- jacoco plugin configured to generate report both in XML and HTML
+
 ## [1.6.3] - 2024-03-24
 
 ### Added
