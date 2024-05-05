@@ -11,6 +11,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - h2-version 2.2.224
 
+### Changed
+
+- mvn-source-version set to 3.3.1
+- mvn-jar-version set to 3.4.1
+- mvn-shade-version set to 3.5.3
+- mvn-plugin-annotations-version set to 3.12.0
+- mvn-plugin-version set to 3.12.0
+- slf4j-version set to 2.0.13
+- mvn-gpg-version set to 3.2.4
+- common-codec-version set to 1.17.0
+- jacoco-maven-plugin-version set to 0.8.12
+- jackson-version set to 2.17.1
+
 ## [1.6.4] - 2024-04-01
 
 ### Changed
