@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- mvn-plugin-annotations-version set to 3.13.0
+- mvn-plugin-version set to 3.13.0
+- testcontainers-version set to 1.19.8
+- junit-jupiter-versio set to 5.11.0-M2
+- graalvm-mvn-native-version set to 0.10.2
+- build-helper-maven-plugin-version set to 3.6.0
+
 ## [1.6.5] - 2024-05-05
 
 ### Added
