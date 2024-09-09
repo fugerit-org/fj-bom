@@ -5,7 +5,7 @@
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-bom</artifactId>
 
-	<version>1.6.6-SNAPSHOT</version>
+	<version>1.6.6</version>
 	<packaging>pom</packaging>
 
 	<name>Fugerit Java Platform BOM</name>
