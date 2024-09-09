@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - junit-jupiter-versio set to 5.11.0-M2
 - graalvm-mvn-native-version set to 0.10.2
 - build-helper-maven-plugin-version set to 3.6.0
+- poi-version 5.3.0
 
 ## [1.6.5] - 2024-05-05
 
