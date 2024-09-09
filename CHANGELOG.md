@@ -16,6 +16,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - graalvm-mvn-native-version set to 0.10.2
 - build-helper-maven-plugin-version set to 3.6.0
 - poi-version 5.3.0
+- mvn-javadoc-version set to 3.10.0
+- mvn-shade-version set to 3.6.0
+- mvn-surefire-version set to 3.6.0
+- slf4j-version set to 2.0.16
 
 ## [1.6.5] - 2024-05-05
 
