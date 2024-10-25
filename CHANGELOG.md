@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - common-codec-version set to 1.17.1
 - testcontainers-version set to 1.20.3
 - junit-jupiter-version set to 5.11.3
+- awaitility-version set to 4.2.2
 
 ## [1.6.6] - 2024-09-09
 
