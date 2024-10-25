@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - mvn-plugin-api-version set to 3.9.9
 - mvn-plugin-annotations-version set to 3.15.0
 - mvn-plugin-version set to 3.15.0
+- log4j2-version set to 2.24.1
 
 ## [1.6.6] - 2024-09-09
 
