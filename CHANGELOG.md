@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - junit-jupiter-version set to 5.11.3
 - awaitility-version set to 4.2.2
 - common-compress-version set to 1.27.1
+- lombok-version set to 1.18.34
 
 ## [1.6.6] - 2024-09-09
 
