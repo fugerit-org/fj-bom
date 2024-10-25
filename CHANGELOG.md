@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - graalvm-mvn-native-version set to 0.10.3
 - buildnumber-maven-plugin-version set to 3.2.1
 - jackson-version set to 2.18.0
+- Added dependency management for org.junit.jupiter:junit-jupiter-api:${junit-jupiter-version}
 
 ## [1.6.6] - 2024-09-09
 
