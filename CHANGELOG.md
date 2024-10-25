@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - awaitility-version set to 4.2.2
 - common-compress-version set to 1.27.1
 - lombok-version set to 1.18.34
+- graalvm-mvn-native-version set to 0.10.3
 
 ## [1.6.6] - 2024-09-09
 
