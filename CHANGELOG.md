@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.6.7] - 2024-10-25
+
 ### Changed
 
 - mvn-javadoc-version set to 3.10.1
