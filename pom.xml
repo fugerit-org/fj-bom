@@ -89,8 +89,8 @@
 		<slf4j-version>2.0.16</slf4j-version>
 		<log4j2-version>2.24.1</log4j2-version>
 		<!-- release dependancies -->
-		<nexus-version>1.6.13</nexus-version>
-		<mvn-gpg-version>3.2.4</mvn-gpg-version>
+		<nexus-version>1.7.0</nexus-version>
+		<mvn-gpg-version>3.2.7</mvn-gpg-version>
 		<!-- other library dependancies -->
 		<poi-version>5.3.0</poi-version>
 		<common-codec-version>1.17.0</common-codec-version>
