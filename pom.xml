@@ -98,8 +98,8 @@
 		<dbcp2-version>2.12.0</dbcp2-version>
 		<junit-version>4.13.2</junit-version>	
 		<awaitility-version>4.2.1</awaitility-version>
-		<testcontainers-version>1.19.7</testcontainers-version>
-		<junit-jupiter-version>5.11.0-M2</junit-jupiter-version>
+		<testcontainers-version>1.20.3</testcontainers-version>
+		<junit-jupiter-version>5.11.3</junit-jupiter-version>
 		<jacoco-maven-plugin-version>0.8.12</jacoco-maven-plugin-version>
 		<testcontainers-core-version>${testcontainers-version}</testcontainers-core-version>
 		<testcontainers-junit-version>${testcontainers-version}</testcontainers-junit-version>
