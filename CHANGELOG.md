@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - mvn-javadoc-version set to 3.10.1
 - mvn-jar-version set to 3.4.2
+- mvn-plugin-api-version set to 3.9.9
+- mvn-plugin-annotations-version set to 3.15.0
+- mvn-plugin-version set to 3.15.0
 
 ## [1.6.6] - 2024-09-09
 
