@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - mvn-javadoc-version set to 3.10.1
+- mvn-jar-version set to 3.4.2
 
 ## [1.6.6] - 2024-09-09
 
