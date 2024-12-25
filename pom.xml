@@ -130,6 +130,10 @@
 		<delombok-output-dir>${project.build.directory}/generated-sources/delombok</delombok-output-dir>
 		<javadoc-javasource-path-extra></javadoc-javasource-path-extra>	<!-- setting this property it is possible to add PATH to javadoc processing, for instance ':${generated.source.daogen}' -->
 		<javadoc-javasource-path>${delombok-output-dir}${javadoc-javasource-path-extra}</javadoc-javasource-path>
+		<!-- formatter plugin -->
+		<mvn-formatter-plugin-version>2.24.1</mvn-formatter-plugin-version>
+		<fugerit-code-rules-version>0.1.1</fugerit-code-rules-version>
+		<format.skip>true</format.skip>
 	</properties>
 
 	<dependencyManagement>
@@ -462,8 +466,34 @@
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
-			</plugin>	
-		
+			</plugin>
+
+			<plugin>
+				<groupId>net.revelc.code.formatter</groupId>
+				<artifactId>formatter-maven-plugin</artifactId>
+				<version>${mvn-formatter-plugin-version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.fugerit.java</groupId>
+						<artifactId>fugerit-code-rules</artifactId>
+						<version>${fugerit-code-rules-version}</version>
+					</dependency>
+				</dependencies>
+				<configuration>
+					<configFile>org/fugerit/java/coderules/eclipse-format.xml</configFile>
+					<skip>${format.skip}</skip>
+				</configuration>
+				<executions>
+					<execution>
+						<id>format-sources</id>
+						<phase>process-sources</phase>
+						<goals>
+							<goal>format</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	
 	</build>
@@ -784,7 +814,7 @@
 				</plugins>
 			</build>
 		</profile>	
-	
+
 	</profiles>
 	
 </project>

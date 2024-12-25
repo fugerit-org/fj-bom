@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- mvn-formatter-plugin-version 2.24.1
+- fugerit-code-rules-version 0.1.1
+- property **format.skip** = *true* (set *false* to activate format on a project).
+
 ## [1.6.7] - 2024-10-25
 
 ### Changed

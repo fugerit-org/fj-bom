@@ -1,8 +1,13 @@
-### Idea Intellij ###
-.idea/	
+### Eclipse ###
+
+#react
+
+.idea/
 *.iml
 
-### Eclipse ###
+*.DS_Store
+
+npm
 
 .metadata
 bin/
@@ -15,8 +20,6 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
-.vscode/
 
 # Eclipse Core
 .project
@@ -103,4 +106,4 @@ buildNumber.properties
 # End of https://www.gitignore.io/api/java,maven,eclipse
 
 /.apt_generated/
-/.apt_generated_tests/
+/fj-doc-playground-quarkus/src/main/react/public/help/
