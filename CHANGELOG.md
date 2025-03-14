@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - log4j2-version set to 2.24.3
 - slf4j-version set to 2.0.17
 - common-codec-version set to 1.18.0
+- dbcp2-version set to 2.13.0
+- testcontainers-version set to 1.20.6
 
 ## [1.7.1] - 2024-12-26
 
