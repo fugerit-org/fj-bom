@@ -124,7 +124,7 @@
 		<fasterxml-jackson-databind-version>${jackson-version}</fasterxml-jackson-databind-version>
 		<fasterxml-jackson-dataformat-yaml-version>${jackson-version}</fasterxml-jackson-dataformat-yaml-version>
 		<!-- opencsv version -->
-		<opencsv-version>5.8</opencsv-version>
+		<opencsv-version>5.10</opencsv-version>
 		<!-- lombok maven -->
 		<lombok-maven-plugin-version>1.18.20.0</lombok-maven-plugin-version>
 		<delombok-output-dir>${project.build.directory}/generated-sources/delombok</delombok-output-dir>
