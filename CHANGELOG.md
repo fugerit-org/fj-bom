@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - dbcp2-version set to 2.13.0
 - testcontainers-version set to 1.20.6
 - hsqldb-version set to 2.7.4
+- org.tukaani.xz-version set to 1.10
 
 ## [1.7.1] - 2024-12-26
 
