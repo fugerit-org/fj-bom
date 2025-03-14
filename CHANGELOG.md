@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- poi-version 5.4.0
 - jackson-version set to 2.18.3
 
 ## [1.7.1] - 2024-12-26
