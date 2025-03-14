@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - mvn-compiler-version set to 3.14.0
 - mvn-plugin-annotations-version set to 3.15.1
 - mvn-plugin-plugin-version set to 3.15.1
+- mvn-formatter-plugin-version 2.25.0
 
 ## [1.7.1] - 2024-12-26
 
