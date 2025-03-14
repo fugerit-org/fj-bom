@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lombok-version set to 1.18.36
 - mvn-javadoc-version set to 3.11.2
 - mvn-compiler-version set to 3.14.0
+- mvn-plugin-annotations-version set to 3.15.1
 
 ## [1.7.1] - 2024-12-26
 

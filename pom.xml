@@ -83,7 +83,7 @@
 		<mvn-resources-version>3.3.1</mvn-resources-version>
 		<!-- maven plugin creation dependancies -->
 		<mvn-plugin-api-version>3.9.9</mvn-plugin-api-version>
-		<mvn-plugin-annotations-version>3.15.0</mvn-plugin-annotations-version>
+		<mvn-plugin-annotations-version>3.15.1</mvn-plugin-annotations-version>
 		<mvn-plugin-version>3.15.0</mvn-plugin-version>
 		<!-- logging dependancies -->
 		<slf4j-version>2.0.17</slf4j-version>
