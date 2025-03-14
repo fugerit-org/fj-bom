@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - awaitility-version set to 4.3.0
 - mvn-surefire-version set to 3.5.2
 - log4j2-version set to 2.24.3
+- slf4j-version set to 2.0.17
 
 ## [1.7.1] - 2024-12-26
 
