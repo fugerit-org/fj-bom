@@ -103,7 +103,7 @@
 		<jacoco-maven-plugin-version>0.8.12</jacoco-maven-plugin-version>
 		<testcontainers-core-version>${testcontainers-version}</testcontainers-core-version>
 		<testcontainers-junit-version>${testcontainers-version}</testcontainers-junit-version>
-		<hsqldb-version>2.7.2</hsqldb-version>
+		<hsqldb-version>2.7.4</hsqldb-version>
 		<h2-version>2.2.224</h2-version>
 		<fj-test-helper-version>0.5.2</fj-test-helper-version>   
 		<common-compress-version>1.27.1</common-compress-version>
