@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.7.4] - 2025-04-16
+
 ### Changed
 
 - lombok-version set to 1.18.36 (jdk 24 support)
