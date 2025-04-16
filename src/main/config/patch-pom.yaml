@@ -1,0 +1,34 @@
+---
+mavenProperty:
+  - name: jackson-version
+    dependency: com.fasterxml.jackson.core/jackson-core
+  - name: opencsv-version
+    dependency: com.opencsv/opencsv
+  - name: junit-version
+    dependency: junit/junit
+  - name: junit-jupiter-version
+    dependency: org.junit.jupiter/junit-jupiter
+  - name: slf4j-version
+    dependency: org.slf4j/slf4j-api
+  - name: log4j2-version
+    dependency: org.apache.logging.log4j/log4j-api
+  - name: poi-version
+    dependency: org.apache.poi/poi
+  - name: dbcp2-version
+    dependency: org.apache.commons/commons-dbcp2
+  - name: dbcp-version
+    dependency: commons-dbcp/commons-dbcp
+  - name: testcontainers-version
+    dependency: org.testcontainers/testcontainers
+  - name: h2-version
+    dependency: com.h2database/h2
+  - name: hsqldb-version
+    dependency: org.hsqldb/hsqldb
+  - name: common-compress-version
+    dependency: org.apache.commons/commons-compress
+  - name: org.tukaani.xz-version
+    dependency: org.tukaani/xz
+  - name: awaitility-version
+    dependency: org.awaitility/awaitility
+  - name: fj-test-helper-version
+    dependency: org.fugerit.java/fj-test-helper-core
