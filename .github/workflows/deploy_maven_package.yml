@@ -10,7 +10,6 @@ on:
   push:
     branches:
     - branch-deploy
-    - 16-migrating-from-legacy-ossrh-to-central-portal
 
 jobs:
   build:

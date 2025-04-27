@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2025-05-27
+
 ### Changed
 
 - Migrating from "Legacy OSSRH" to "Central Portal" <https://github.com/fugerit-org/fj-bom/issues/16>
