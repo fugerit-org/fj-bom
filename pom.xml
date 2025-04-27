@@ -130,6 +130,8 @@
 		<delombok-output-dir>${project.build.directory}/generated-sources/delombok</delombok-output-dir>
 		<javadoc-javasource-path-extra></javadoc-javasource-path-extra>	<!-- setting this property it is possible to add PATH to javadoc processing, for instance ':${generated.source.daogen}' -->
 		<javadoc-javasource-path>${delombok-output-dir}${javadoc-javasource-path-extra}</javadoc-javasource-path>
+		<!-- migrate to maven central -->
+		<central-version>0.7.0</central-version>
 		<!-- formatter plugin -->
 		<mvn-formatter-plugin-version>2.25.0</mvn-formatter-plugin-version>
 		<fugerit-code-rules-version>0.1.1</fugerit-code-rules-version>
@@ -749,17 +751,18 @@
 								</configuration>
 							</execution>
 						</executions>
-					</plugin>	
-					
+					</plugin>
+
 					<plugin>
-						<groupId>org.sonatype.plugins</groupId>
-						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>${nexus-version}</version>
+						<groupId>org.sonatype.central</groupId>
+						<artifactId>central-publishing-maven-plugin</artifactId>
+						<version>${central-version}</version>
 						<extensions>true</extensions>
 						<configuration>
-							<serverId>ossrh</serverId>
-							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-							<autoReleaseAfterClose>true</autoReleaseAfterClose>
+							<publishingServerId>central</publishingServerId>
+							<tokenAuth>true</tokenAuth>
+							<autoPublish>true</autoPublish>
+							<waitUntil>published</waitUntil>
 						</configuration>
 					</plugin>
 
