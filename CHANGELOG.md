@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- opencsv version 5.11.1
 - Migrating from "Legacy OSSRH" to "Central Portal" <https://github.com/fugerit-org/fj-bom/issues/16>
 
 ## [1.7.4] - 2025-04-16
