@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- junit-jupiter-version 5.13.1 <https://github.com/fugerit-org/fj-doc/issues/454>
+
 ## [2.0.1] - 2025-06-08
 
 ### Changed
