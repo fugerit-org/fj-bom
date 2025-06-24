@@ -119,7 +119,7 @@
 		<!-- build helper -->
 		<build-helper-maven-plugin-version>3.6.0</build-helper-maven-plugin-version>
 		<!-- jackson version -->
-		<jackson-version>2.18.3</jackson-version>
+		<jackson-version>2.19.1</jackson-version>
 		<fasterxml-jackson-core-version>${jackson-version}</fasterxml-jackson-core-version>
 		<fasterxml-jackson-databind-version>${jackson-version}</fasterxml-jackson-databind-version>
 		<fasterxml-jackson-dataformat-yaml-version>${jackson-version}</fasterxml-jackson-dataformat-yaml-version>

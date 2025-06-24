@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- jackson-version 2.19.1
 - junit-jupiter-version 5.13.1 <https://github.com/fugerit-org/fj-doc/issues/454>
 
 ## [2.0.1] - 2025-06-08
