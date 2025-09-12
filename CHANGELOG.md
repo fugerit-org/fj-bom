@@ -7,9 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
 - mvn-javadoc-version 3.11.3
 - mvn-plugin-api-version 3.9.11
 - log4j2-version set to 2.25.1
+- mvn-gpg-version 3.2.8
 
 ## [2.0.4] - 2025-08-17
 
