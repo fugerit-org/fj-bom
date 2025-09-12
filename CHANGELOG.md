@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - testcontainers-version 1.21.3
 - junit-jupiter-version 5.13.4
 - common-compress-version 1.28.0
+- lombok-version 1.18.40
 
 ## [2.0.4] - 2025-08-17
 
