@@ -100,7 +100,7 @@
 		<awaitility-version>4.3.0</awaitility-version>
 		<testcontainers-version>1.21.3</testcontainers-version>
 		<junit-jupiter-version>5.13.4</junit-jupiter-version>
-		<jacoco-maven-plugin-version>0.8.12</jacoco-maven-plugin-version>
+		<jacoco-maven-plugin-version>0.8.13</jacoco-maven-plugin-version>
 		<testcontainers-core-version>${testcontainers-version}</testcontainers-core-version>
 		<testcontainers-junit-version>${testcontainers-version}</testcontainers-junit-version>
 		<hsqldb-version>2.7.4</hsqldb-version>
