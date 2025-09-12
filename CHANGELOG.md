@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - log4j2-version set to 2.25.1
 - mvn-gpg-version 3.2.8
 - poi-version 5.4.1
+- common-codec-version 1.19.0
 
 ## [2.0.4] - 2025-08-17
 
