@@ -133,7 +133,7 @@
 		<!-- migrate to maven central -->
 		<central-version>0.7.0</central-version>
 		<!-- formatter plugin -->
-		<mvn-formatter-plugin-version>2.25.0</mvn-formatter-plugin-version>
+		<mvn-formatter-plugin-version>2.29.0</mvn-formatter-plugin-version>
 		<fugerit-code-rules-version>0.1.1</fugerit-code-rules-version>
 		<format.skip>true</format.skip>
 	</properties>
