@@ -111,7 +111,7 @@
 		<!-- development plugin -->
 		<lombok-version>1.18.40</lombok-version>
 		<!-- graal vm -->
-		<graalvm-mvn-native-version>0.10.6</graalvm-mvn-native-version>
+		<graalvm-mvn-native-version>0.11.0</graalvm-mvn-native-version>
 		<slf4j-simple-version>${slf4j-version}</slf4j-simple-version>
 		<!-- build data -->
 		<buildnumber-maven-plugin-version>3.2.1</buildnumber-maven-plugin-version>
