@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- mvn-javadoc-version 3.11.3
+- mvn-plugin-api-version 3.9.11
+
 ## [2.0.4] - 2025-08-17
 
 ### Changed
