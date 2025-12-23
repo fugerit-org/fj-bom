@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.6] - 2025-12-23
+
+### Changed
+
+- log4j2-version set to 2.25.3
+
 ## [2.0.5] - 2025-09-12
 
 ### Changed
