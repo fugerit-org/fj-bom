@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- junit-jupiter-version 6.0.2
+
 ## [2.0.6] - 2025-12-23
 
 ### Changed
