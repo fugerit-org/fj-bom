@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- lombok-version 1.18.44
+
 ## [2.0.7] - 2026-01-27
 
 ### Changed
