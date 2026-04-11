@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - log4j2-version set to 2.25.5
 - lombok-version 1.18.44
+- mvn-plugin-api-version 3.9.14
 
 ## [2.0.7] - 2026-01-27
 
