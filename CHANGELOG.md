@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - graalvm-mvn-native-version set to 1.1.0
 - jacoco-maven-plugin-version set to 0.8.14
 - buildnumber-maven-plugin-version set to 3.3.0
+- jackson-version set to 2.21.2
 
 ## [2.0.9] - 2026-04-11
 
