@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - junit-jupiter-version set to 6.0.3
 - org.tukaani.xz-version set to 1.12
 - lombok-version set to 1.18.46
+- graalvm-mvn-native-version set to 1.1.0
 
 ## [2.0.9] - 2026-04-11
 
