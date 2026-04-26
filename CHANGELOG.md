@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - dbcp2-version set to 2.14.0
 - testcontainers-version set to 1.21.4
 - junit-jupiter-version set to 6.0.3
+- org.tukaani.xz-version set to 1.12
 
 ## [2.0.9] - 2026-04-11
 
