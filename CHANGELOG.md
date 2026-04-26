@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - org.tukaani.xz-version set to 1.12
 - lombok-version set to 1.18.46
 - graalvm-mvn-native-version set to 1.1.0
+- jacoco-maven-plugin-version set to 0.8.14
 
 ## [2.0.9] - 2026-04-11
 
