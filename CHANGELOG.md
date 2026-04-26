@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - mvn-plugin-version set to 3.15.2
 - poi-version set to 5.5.1
 - common-codec-version set to 1.22.0
+- dbcp2-version set to 2.14.0
 
 ## [2.0.9] - 2026-04-11
 

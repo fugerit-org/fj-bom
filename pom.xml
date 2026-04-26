@@ -95,7 +95,7 @@
 		<poi-version>5.5.1</poi-version>
 		<common-codec-version>1.22.0</common-codec-version>
 		<dbcp-version>1.4</dbcp-version> <!-- dbcp should be avoided, use dbcp2 -->
-		<dbcp2-version>2.13.0</dbcp2-version>
+		<dbcp2-version>2.14.0</dbcp2-version>
 		<junit-version>4.13.2</junit-version>	
 		<awaitility-version>4.3.0</awaitility-version>
 		<testcontainers-version>1.21.3</testcontainers-version>
